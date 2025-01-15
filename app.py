@@ -21,7 +21,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 # Set Poppler path
-POPPLER_PATH = r"C:\Users\useer\Desktop\paddle_ocr\ocr\poppler-24.08.0\Library\bin"  # Replace with your actual Poppler `bin` directory path
+POPPLER_PATH = r"..\poppler-24.08.0\Library\bin"  # Replace with your actual Poppler `bin` directory path
 
 # Home route to render the upload form
 @app.route("/")
